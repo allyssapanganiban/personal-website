@@ -1,0 +1,115 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #e6e1f0;
+    padding: 3px 10%;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+    font-size: 20px;
+}
+
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+
+a {
+    display: inline-block;
+}
+
+.icon{
+    width: 20px; 
+    vertical-align: middle;   
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.nav-menu li img{
+    display: flex;
+    margin: auto;
+}
+
+.anchor-link{
+    text-decoration: none;
+    color: #262323;
+}
+
+.anchor-link:hover p {
+    font-weight: bold;
+}
+
+.nav-mob-close{
+    display: none;
+    cursor: pointer;
+    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(100%);
+}
+.nav-mob-open{
+    display: none;
+    cursor: pointer;
+    width: 30px;
+    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(100%);
+}
+@media(max-width:830px){
+    .navbar {
+        padding: 8px 50px;
+    }
+    .nav-mob-open{
+        display: block;
+        position: absolute;
+        right: 30px;
+    }
+    .nav-mob-close{
+        display: block;
+        position: absolute;
+        top: 30px;
+        right: 7%;
+        width: 30px;
+    }
+    .navbar ul{
+        position: fixed;
+        flex-direction: column;
+        align-items: start;
+        top: 0;
+        gap: 30px;
+        background-color: #e6e1f0;
+        width: 300px;
+        height: 100%;
+        z-index: 2;
+        transition: right 0.5s;
+        right: -300px;
+        padding-top: 100px;
+    }
+    .nav-menu li{
+        font-size: 22px;
+        padding-left: 50px;
+        flex-direction: row;
+        gap: 20px;
+    }
+    .logo{
+        width: 45px;
+    }
+    .icon-container {
+        display: none;
+        gap: 30px;
+    }
+}

@@ -1,0 +1,37 @@
+.footer{
+    display: flex;
+    margin: 50px 10%;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-top-left p{
+    font-size: 18px;
+    max-width: 450px;
+}
+.footer-icon {
+    width: 20px; 
+    vertical-align: middle;   
+}
+
+.footer-icon-container {
+    display: flex;
+    gap: 30px;
+}
+
+@media(max-width:768px){
+    .footer{
+        margin: 50px 6%;
+    }
+    .footer-top{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footer-icon-container {
+        gap: 30px;
+    }
+}
