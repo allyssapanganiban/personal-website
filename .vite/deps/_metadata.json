@@ -1,0 +1,31 @@
+{
+  "hash": "0e98c7b8",
+  "configHash": "a9000bb5",
+  "lockfileHash": "a5f48242",
+  "browserHash": "c56d4590",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "5d2f6eed",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "1b188aac",
+      "needsInterop": true
+    },
+    "react-anchor-link-smooth-scroll": {
+      "src": "../../node_modules/react-anchor-link-smooth-scroll/lib/anchor-link.js",
+      "file": "react-anchor-link-smooth-scroll.js",
+      "fileHash": "6eca8027",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-EZSDZQRT": {
+      "file": "chunk-EZSDZQRT.js"
+    }
+  }
+}

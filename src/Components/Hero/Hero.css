@@ -3,7 +3,11 @@
     align-items: center;
     flex-direction: column;
     gap: 20px;
-    margin-top: 250px; 
+    margin-top: 250px;
+    margin: 15px auto;
+    margin-top: 250px;
+    width: 100%;
+    max-width: 1125px;
 }
 
 /* remove margin-top if pic */
@@ -66,7 +70,7 @@
     margin-right: 10px;
 }
 
-@media(max-width:768px){
+@media(max-width:830px){
     .profile-img{
         margin-top: 50px;
         width: 200px;

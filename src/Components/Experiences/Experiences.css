@@ -57,7 +57,7 @@
     transform: scale(1.05);
     transition: 0.4s;
 }
-@media(max-width:768px){
+@media(max-width:830px){
     .experiences{
         align-items: start;
         gap: 70px;

@@ -4,14 +4,18 @@
     align-items: center;
     justify-content: center;
     gap: 80px;
-    padding: 80px 10%;
-    width: 100%;
-    box-sizing: border-box;
+
+    width: calc(100% - 75px);
+    max-width: 1125px;
+
+    margin: 80px auto; 
 }
+/* fix width */
 
 .about-sections{
     display: flex;
     gap: 60px;
+
     width: 100%;
     box-sizing: border-box;
 }
@@ -23,20 +27,26 @@
     display: flex;
     flex-direction: column;
     gap: 50px;
+
     width: 100%;
 }
+
 .about-para{
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 10px;
     font-size: 22px;
     font-weight: 500;
+
     width: 100%;
 }
 .about-skills{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 15px;
+
+    width: 100%;
+    box-sizing: border-box;
 }
 .about-skill{
     align-items: center;
@@ -44,8 +54,11 @@
     border-radius: 10px;
     border: 2px solid white;
     font-weight: 700px; 
-    padding: 20px 30px;
+    padding: 3px 10px;
     font-size: 18px;
+
+    display: flex;
+    gap: 10px;
 }
 
 .about-skills-icon {
@@ -75,11 +88,14 @@
     transition: 0.3s;
 }
 
-@media(max-width:768px){
+@media(max-width:830px){
     .about{
         gap: 50px;
         margin: 50px 6%;
         align-items: start;
+
+        width: calc(100% - 75px);
+        padding: 0 20px;
     }
     
     .about-sections{

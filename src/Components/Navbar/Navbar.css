@@ -3,11 +3,12 @@
     align-items: center;
     justify-content: space-between;
     background: #e6e1f0;
-    padding: 3px 10%;
+    margin: 0px auto;
     position: sticky;
     z-index: 1000;
     top: 0;
     width: 100%;
+    max-width: 1200px;
 }
 .nav-menu{
     display: flex;
