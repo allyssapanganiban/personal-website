@@ -26,7 +26,7 @@
     line-height: 70px;
 }
 .hero h1 span{
-    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    background: #7A1414;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -45,17 +45,19 @@
     margin-bottom: 50px;
 }
 .hero-connect{
-    padding: 20px 30px;
-    border: 2px solid #262323;
-    border-radius: 15px;
-    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
-    font-weight: 600px;
+    padding: 15px 25px;
+    border: 3px solid #7A1414;
+    border-radius: 10px;
+    background: #FBF8F2; 
+    font-weight: 700px;
     cursor: pointer;
     font-size: 18px;
+    color: #7A1414;
 }
 
 .hero-connect:hover{
-    border: 2px solid white;
+    border: 4px solid #7A1414;
+    background: #FBF2E5;
 }
 
 .email-link {
@@ -92,8 +94,8 @@
         margin-bottom: 50px;
     }
     .hero-connect{
-        padding: 20px 20px;
-        border-radius: 15px;
+        padding: 15px 20px;
+        border-radius: 10px;
         font-size: 15px;
     }
 

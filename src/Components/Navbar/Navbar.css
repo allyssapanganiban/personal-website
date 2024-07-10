@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #e6e1f0;
+    background: #FBF8F2;
     margin: 0px auto;
     position: sticky;
     z-index: 1000;
@@ -92,7 +92,7 @@ a {
         align-items: start;
         top: 0;
         gap: 30px;
-        background-color: #e6e1f0;
+        background-color: #FBF8F2;
         width: 300px;
         height: 100%;
         z-index: 2;
