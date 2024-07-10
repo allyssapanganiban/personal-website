@@ -10,7 +10,7 @@
 
     margin: 80px auto; 
 }
-/* fix width */
+/* fix width, goes beyond when smaller screens */
 
 .about-sections{
     display: flex;
@@ -114,8 +114,8 @@
     }
 
     .about-skill p{
-        font-size: 16px;
-        min-width: 90px;
+        font-size: 14px;
+        min-width: 70px;
     }
 
 }
