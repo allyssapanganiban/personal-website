@@ -1,31 +1,49 @@
 {
-  "hash": "0e98c7b8",
+  "hash": "0f796c8a",
   "configHash": "a9000bb5",
-  "lockfileHash": "a5f48242",
-  "browserHash": "c56d4590",
+  "lockfileHash": "55ed5798",
+  "browserHash": "d647a8c7",
   "optimized": {
     "react": {
       "src": "../../node_modules/react/index.js",
       "file": "react.js",
-      "fileHash": "5d2f6eed",
+      "fileHash": "e28c678b",
       "needsInterop": true
     },
     "react-dom/client": {
       "src": "../../node_modules/react-dom/client.js",
       "file": "react-dom_client.js",
-      "fileHash": "1b188aac",
+      "fileHash": "fc0f74f8",
       "needsInterop": true
     },
     "react-anchor-link-smooth-scroll": {
       "src": "../../node_modules/react-anchor-link-smooth-scroll/lib/anchor-link.js",
       "file": "react-anchor-link-smooth-scroll.js",
-      "fileHash": "6eca8027",
+      "fileHash": "af91d8e7",
       "needsInterop": true
+    },
+    "react-router": {
+      "src": "../../node_modules/react-router/dist/index.js",
+      "file": "react-router.js",
+      "fileHash": "fbcae303",
+      "needsInterop": false
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "554a5c38",
+      "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-EZSDZQRT": {
-      "file": "chunk-EZSDZQRT.js"
+    "chunk-KHSU7K2O": {
+      "file": "chunk-KHSU7K2O.js"
+    },
+    "chunk-TM5QU56M": {
+      "file": "chunk-TM5QU56M.js"
+    },
+    "chunk-RGWPGAAI": {
+      "file": "chunk-RGWPGAAI.js"
     }
   }
 }
