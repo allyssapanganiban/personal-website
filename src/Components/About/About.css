@@ -50,7 +50,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 15px;
-
     width: 100%;
     box-sizing: border-box;
 }
@@ -62,8 +61,8 @@
     font-weight: 700px; 
     padding: 3px 10px;
     font-size: 18px;
-
     display: flex;
+    /* flex-direction: column; */
     gap: 10px;
 }
 
@@ -109,10 +108,6 @@
         line-height: 25px;
     }
     
-    .about-skills{
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
     .about-skill p{
         font-size: 14px;
         min-width: 70px;
