@@ -35,7 +35,7 @@ const Navbar = () => {
         <li><Link className='anchor-link' to='/'><p onClick={()=>setMenu("home")}>Home</p></Link>{menu==="home"?<img src={underline} alt=''/>:<></>}</li>
         <li><Link className='anchor-link' to='/about'><p onClick={()=>setMenu("about")}>About</p></Link>{menu==="about"?<img src={underline} alt=''/>:<></>}</li>
         <li><Link className='anchor-link' to='/experiences'><p onClick={()=>setMenu("experiences")}>Experiences</p></Link>{menu==="experiences"?<img src={underline} alt=''/>:<></>}</li>
-        <li><Link className='anchor-link' to='/projects'><p onClick={()=>setMenu("work")}>Projects</p></Link>{menu==="work"?<img src={underline} alt=''/>:<></>}</li>
+        {/* <li><Link className='anchor-link' to='/projects'><p onClick={()=>setMenu("work")}>Projects</p></Link>{menu==="work"?<img src={underline} alt=''/>:<></>}</li> */}
         <li><a className='anchor-link' href='https://drive.google.com/file/d/1PqEmQvukeT4M2SO9fx9AHPdCUT_V26Y4/view?usp=sharing' target='_blank' rel='noopener noreferrer'><p onClick={() => setMenu("resume")}>Resume</p></a>{menu==="resume"?<img src={underline} alt=''/>:<></>}</li>
       </ul>
       <li className="icon-container">
