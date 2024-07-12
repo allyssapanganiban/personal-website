@@ -12,7 +12,7 @@ const Services_Data = [
         s_group: "Headstarter AI"
     },
     {
-        s_no:"Aug. 2024 - ",
+        s_no:"Aug. 2024 - Present",
         s_name:"Teaching Assistant",
         s_desc:"Web development is the process of building, programming...",
         s_group: "Villanova University"

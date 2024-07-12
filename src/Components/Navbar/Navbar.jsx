@@ -1,12 +1,12 @@
 import React, { useRef, useState } from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import './Navbar.css';
 import favicon from '../../assets/favicon.png'
 import mail_icon from '../../assets/mail_icon.png';
 import github_icon from '../../assets/github_icon.png';
 import linkedin_icon from '../../assets/linkedin_icon.png';
 import underline from '../../assets/nav_underline.svg';
-// import AnchorLink from 'react-anchor-link-smooth-scroll';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import menu_open from '../../assets/menu_open.svg';
 import menu_close from '../../assets/menu_close.svg';
 
@@ -32,11 +32,11 @@ const Navbar = () => {
       <img src={menu_open} onClick={openMenu} alt="" className='nav-mob-open' />
       <ul ref={menuRef} className="nav-menu">
         <img src={menu_close} onClick={closeMenu} alt="" className="nav-mob-close" />
-        <li><Link className='anchor-link' to='/'><p onClick={()=>setMenu("home")}>Home</p></Link>{menu==="home"?<img src={underline} alt=''/>:<></>}</li>
-        <li><Link className='anchor-link' to='/about'><p onClick={()=>setMenu("about")}>About</p></Link>{menu==="about"?<img src={underline} alt=''/>:<></>}</li>
-        <li><Link className='anchor-link' to='/experiences'><p onClick={()=>setMenu("experiences")}>Experiences</p></Link>{menu==="experiences"?<img src={underline} alt=''/>:<></>}</li>
-        {/* <li><Link className='anchor-link' to='/projects'><p onClick={()=>setMenu("work")}>Projects</p></Link>{menu==="work"?<img src={underline} alt=''/>:<></>}</li> */}
-        <li><a className='anchor-link' href='https://drive.google.com/file/d/1PqEmQvukeT4M2SO9fx9AHPdCUT_V26Y4/view?usp=sharing' target='_blank' rel='noopener noreferrer'><p onClick={() => setMenu("resume")}>Resume</p></a>{menu==="resume"?<img src={underline} alt=''/>:<></>}</li>
+        <li><AnchorLink className='anchor-link' href='#home' offset={100}><p onClick={()=>setMenu("home")}>Home</p></AnchorLink>{menu==="home"?<img src={underline} alt=''/>:<></>}</li>
+        <li><AnchorLink className='anchor-link' offset={50} href='#about'><p onClick={()=>setMenu("about")}>About</p></AnchorLink>{menu==="about"?<img src={underline} alt=''/>:<></>}</li>
+        <li><AnchorLink className='anchor-link' offset={50} href='#experiences'><p onClick={()=>setMenu("experiences")}>Experiences</p></AnchorLink>{menu==="experiences"?<img src={underline} alt=''/>:<></>}</li>
+        <li><AnchorLink className='anchor-link' offset={50} href='#work'><p onClick={()=>setMenu("work")}>Projects</p></AnchorLink>{menu==="work"?<img src={underline} alt=''/>:<></>}</li>
+        <li><AnchorLink className='anchor-link' offset={50} href='#contact'><p onClick={()=>setMenu("contact")}>Resume</p></AnchorLink>{menu==="contact"?<img src={underline} alt=''/>:<></>}</li>
       </ul>
       <li className="icon-container">
       <a href="mailto:apanga01@villanova.edu" target="_blank" rel="noopener noreferrer">
