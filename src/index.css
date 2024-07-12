@@ -26,13 +26,9 @@ body{
 }
 @media(max-width: 768px){
 
-  .about-title img{
-      width: 130px;
-      right: -20px;
-  }
   .title-box h1{
     padding: 0px;
-    font-size: 40px;
+    font-size: 35px;
   }
   .title-box img{
     width: 100px;

@@ -8,7 +8,8 @@ const Hero = () => {
   return (
     <div id='home' className='hero'>
       {/* <img src={portfolio_picture} alt="" className='profile-img' /> */}
-      <h1>Hello, my name is <span>Allyssa</span>.</h1>
+      <h1>Hi, I'm <span>Allyssa</span>.</h1>
+      <h2>Computer Science + Business</h2>
       <p>Add blurb about interest & passion - career goal.</p>
       <div className="hero-action">
         <div className="hero-connect">

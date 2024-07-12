@@ -8,7 +8,8 @@
     width: calc(100% - 75px);
     max-width: 1125px;
 
-    margin: 80px auto; 
+    margin: 80px auto;
+    margin-top: 100px;
 }
 /* fix width, goes beyond when smaller screens */
 
@@ -51,7 +52,6 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 15px;
     width: 100%;
-    box-sizing: border-box;
 }
 .about-skill{
     align-items: center;
@@ -92,8 +92,6 @@
     .about{
         gap: 50px;
         margin: 50px 6%;
-        align-items: start;
-
         width: calc(100% - 75px);
         padding: 0 20px;
     }
