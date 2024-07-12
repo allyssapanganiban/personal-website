@@ -10,13 +10,18 @@
     max-width: 1125px;
 }
 
-/* remove margin-top if pic */
-
-/* .profile-img{
-    margin-top: 30px;
-    width: 240px;
-    border-radius: 50%;
-} */
+.circle1 {
+    width: 50px;
+}
+.circle2 {
+    width: 50px;
+}
+.circle3 {
+    width: 50px;
+}
+.circle4 {
+    width: 50px;
+}
 
 .hero h1{
     text-align: center;
@@ -44,6 +49,7 @@
     text-align: center;
     font-size: 25px;
     line-height: 30px;
+    color: #504A49;
 }
 .hero-action{
     display: flex;

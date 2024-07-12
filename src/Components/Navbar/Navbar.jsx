@@ -1,4 +1,5 @@
 import React, { useRef, useState } from 'react';
+import { motion } from 'framer-motion';
 // import { Link } from 'react-router-dom';
 import './Navbar.css';
 import favicon from '../../assets/favicon.png'
@@ -27,7 +28,12 @@ const Navbar = () => {
   }
 
   return (
-    <div className='navbar'>
+    <motion.div
+      className='navbar'
+      initial={{ y: -100, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.7 }}
+    >
       <img src={favicon} alt="" className='logo' onClick={reloadPage}/>
       <img src={menu_open} onClick={openMenu} alt="" className='nav-mob-open' />
       <ul ref={menuRef} className="nav-menu">
@@ -46,8 +52,8 @@ const Navbar = () => {
         <a href="https://www.linkedin.com/in/allyssapanganiban" target="_blank" rel="noopener noreferrer">
           <img src={linkedin_icon} alt="LinkedIn" className='icon'/></a>
       </li>
-    </div>
-  )
+    </motion.div>
+  );
 }
 
 export default Navbar

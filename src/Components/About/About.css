@@ -31,17 +31,22 @@
 
     width: 100%;
 }
-
 .about-para{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 500;
-
+    line-height: 35px;
+    color: #504A49;
     width: 100%;
 }
 
+.about-para h2 {
+    font-size: 45px;
+    line-height: 50px;
+    color: black;
+}
 .about-para b {
     font-weight: 600;
     color: #7A1414;
@@ -75,7 +80,7 @@
     font-size: 20px;
     font-weight: 500;
     text-align: center;
-    background: #7A1414;
+    background: black;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -105,7 +110,10 @@
     .about-para{
         line-height: 25px;
     }
-    
+    .about-para h2 {
+        font-size: 30px;
+        line-height: 30px;
+    }
     .about-skill p{
         font-size: 14px;
         min-width: 70px;

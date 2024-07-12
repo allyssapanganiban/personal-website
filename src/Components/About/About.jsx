@@ -1,4 +1,6 @@
 import React from 'react'
+import { motion } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
 import './About.css'
 import portfolio_picture from '../../assets/portfolio_picture.jpg'
 import css_icon from '../../assets/css_icon.png'
@@ -9,18 +11,52 @@ import python_icon from '../../assets/python_icon.png'
 import java_icon from '../../assets/java_icon.png'
 
 const About = () => {
+  const { ref: titleRef, inView: titleInView } = useInView({
+    triggerOnce: true,
+    threshold: 0.1,
+  });
+
+  const { ref: leftRef, inView: leftInView } = useInView({
+    triggerOnce: true,
+    threshold: 0.1,
+  });
+
+  const { ref: rightRef, inView: rightInView } = useInView({
+    triggerOnce: true,
+    threshold: 0.1,
+  });
+
   return (
     <div id='about' className='about'>
-      <div className="title-box">
+      <motion.div
+        className="title-box"
+        ref={titleRef}
+        initial={{ opacity: 0, y: -50 }}
+        animate={titleInView ? { opacity: 1, y: 0 } : {}}
+        transition={{ duration: 0.6 }}
+      >
         <h1>About me</h1>
-      </div>
+      </motion.div>
       <div className="about-sections">
-        <div className="about-left">
-            <img src={portfolio_picture} alt="" />
-        </div>
+        <motion.div
+          className="about-left"
+          ref={leftRef}
+          initial={{ opacity: 0, x: -30 }}
+          animate={leftInView ? { opacity: 1, x: 0 } : {}}
+          transition={{ duration: 0.8 }}
+        >
+          <img src={portfolio_picture} alt="" />
+        </motion.div>
         {/* Description */}
-        <div className="about-right">
+        <motion.div
+          className="about-right"
+          ref={rightRef}
+          initial={{ opacity: 0, x: 50 }}
+          animate={rightInView ? { opacity: 1, x: 0 } : {}}
+          transition={{ duration: 0.8 }}
+        >
             <div className="about-para">
+                <h2>I am a software engineer from Toms River, NJ.</h2>
                 <p>I am an incoming junior at <b>Villanova University</b> studying Computer Science with a minor in Business. At Villanova, I am the VP of Programs for the Girls Who Code chapter, and involved in other organizations such as NovaCANE, FASA, SASE, and the Programming Team.</p>
                 <p>Here are some languages/technologies I have been working with:</p>
             </div>
@@ -51,7 +87,7 @@ const About = () => {
                   <p>Node.js</p>
                 </div>
             </div>
-        </div>
+          </motion.div>
       </div>
     </div>
   )

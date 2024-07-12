@@ -14,9 +14,11 @@
     "@emotion/styled": "^11.11.5",
     "@mui/material": "^5.16.1",
     "dom": "^0.0.3",
+    "framer-motion": "^11.3.2",
     "react": "^18.2.0",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^18.2.0",
+    "react-intersection-observer": "^9.13.0",
     "react-router": "^6.24.0",
     "react-router-dom": "^6.24.1"
   },
