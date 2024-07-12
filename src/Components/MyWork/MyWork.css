@@ -24,7 +24,7 @@
 
 .mywork-container img:hover{
     transform: scale(1.01);
-    border: 4px solid #ff00ff;
+    border: 4px solid #7A1414;
     border-radius: 10px;
     transition: 0.3s;
 }
