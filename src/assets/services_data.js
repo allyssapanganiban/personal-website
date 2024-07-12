@@ -1,33 +1,21 @@
 const Services_Data = [
     {
-        s_no:"01",
-        s_name:"Web design",
-        s_desc:"Web development is the process of building, programming..."
+        s_no:"Sept. 2023 - Present",
+        s_name:"Vice-President",
+        s_desc:"Co-lead an interdisciplinary mentorship program of 15+ members and spearhead workshops and coding sessions for women in tech.",
+        s_group:"Girls Who Code Chapter"
     },
     {
-        s_no:"02",
-        s_name:"Graphics design",
-        s_desc:"Web development is the process of building, programming..."
+        s_no:"July 2024 - Present",
+        s_name:"Software Engineer Fellow",
+        s_desc:"Web development is the process of building, programming...",
+        s_group: "Headstarter AI"
     },
     {
-        s_no:"03",
-        s_name:"Social media",
-        s_desc:"Web development is the process of building, programming..."
-    },
-    {
-        s_no:"04",
-        s_name:"App design",
-        s_desc:"Web development is the process of building, programming..."
-    },
-    {
-        s_no:"05",
-        s_name:"Digital marketing",
-        s_desc:"Web development is the process of building, programming..."
-    },
-    {
-        s_no:"06",
-        s_name:"Content writing",
-        s_desc:"Web development is the process of building, programming..."
+        s_no:"Aug. 2024 - ",
+        s_name:"Teaching Assistant",
+        s_desc:"Web development is the process of building, programming...",
+        s_group: "Villanova University"
     },
 ]
  

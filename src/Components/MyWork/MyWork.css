@@ -32,7 +32,7 @@
 @media(max-width:830px){
     .mywork{
         gap: 50px;
-        margin: 50px 6%;
+        margin: 50px auto;
         align-items: center;
 
         width: calc(100% - 50px);
