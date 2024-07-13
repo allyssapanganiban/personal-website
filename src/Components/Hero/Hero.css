@@ -10,19 +10,6 @@
     max-width: 1125px;
 }
 
-.circle1 {
-    width: 50px;
-}
-.circle2 {
-    width: 50px;
-}
-.circle3 {
-    width: 50px;
-}
-.circle4 {
-    width: 50px;
-}
-
 .hero h1{
     text-align: center;
     width: 65%;
@@ -30,7 +17,25 @@
     font-weight: 600;
     line-height: 60px;
 }
-.hero h1 span{
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+  @keyframes blink {
+    50% { border-color: transparent; }
+  }
+  
+  .typing-demo {
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: .10em solid black; /* Adjust color to match your design */
+    width: 0;
+    animation: typing 3.5s steps(30, end) forwards, blink .75s step-end infinite;
+  }
+
+.name-highlight {
     background: #7A1414;
     background-clip: text;
     -webkit-background-clip: text;

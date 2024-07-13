@@ -6,6 +6,7 @@ import About from './Components/About/About';
 import Experiences from './Components/Experiences/Experiences';
 import MyWork from './Components/MyWork/MyWork';
 import Footer from './Components/Footer/Footer';
+// import AnimatedCircles from './Components/Hero/AnimatedCircles';
 // import Resume from './Components/Resume/Resume';
 
 const App = () => {
