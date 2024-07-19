@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import './About.css'
-import portfolio_picture from '../../assets/portfolio_picture.jpg'
+import allyssa_headshot from '../../assets/allyssa_headshot.png'
 import css_icon from '../../assets/css_icon.png'
 import javascript_icon from '../../assets/javascript_icon.png'
 import react_icon from '../../assets/react_icon.png'
@@ -45,7 +45,7 @@ const About = () => {
           animate={leftInView ? { opacity: 1, x: 0 } : {}}
           transition={{ duration: 0.8 }}
         >
-          <img src={portfolio_picture} alt="" />
+          <img src={allyssa_headshot} alt="" />
         </motion.div>
         {/* Description */}
         <motion.div

@@ -1,3 +1,29 @@
+@keyframes typing {
+    from { width: 0; }
+    to { width: 11ch; }
+  }
+  
+@keyframes blink {
+    50% { border-color: transparent; }
+}
+  
+.typing-demo {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: .12em solid black;
+    animation: typing 2s steps(40, end) forwards, blink .5s step-end infinite;
+    vertical-align: top;
+    margin-bottom: 0;
+}
+
+.name-highlight {
+    background: #7A1414;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .hero{
     display: flex;
     align-items: center;
@@ -16,31 +42,6 @@
     font-size: 65px;
     font-weight: 600;
     line-height: 60px;
-}
-
-@keyframes typing {
-    from { width: 0; }
-    to { width: 100%; }
-  }
-  
-@keyframes blink {
-    50% { border-color: transparent; }
-}
-  
-.typing-demo {
-    display: inline-block;
-    overflow: hidden;
-    white-space: nowrap;
-    border-right: .10em solid black; /* Adjust color to match your design */
-    width: 0;
-    animation: typing 3.5s steps(30, end) forwards, blink .75s step-end infinite;
-}
-
-.name-highlight {
-    background: #7A1414;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 .hero h2{
