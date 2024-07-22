@@ -56,7 +56,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 15px;
-    width: 100%;
 }
 .about-skill{
     align-items: center;
@@ -67,7 +66,6 @@
     padding: 3px 10px;
     font-size: 18px;
     display: flex;
-    /* flex-direction: column; */
     gap: 10px;
 }
 
@@ -76,14 +74,14 @@
 }
 
 .about-skill p{
-    min-width: 130px;
+    line-height: 35px;
     font-size: 20px;
     font-weight: 500;
-    text-align: center;
     background: black;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-align: center;
 }
 
 .about-skill:hover {
