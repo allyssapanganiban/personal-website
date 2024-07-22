@@ -65,8 +65,8 @@
 @media(max-width:830px){
     .experiences{
         gap: 70px;
-        margin: 20px auto;
-        width: calc(100% - 50px);
+        padding: 0 20px;
+        width: 100%;
     }
     
     .experiences-format{

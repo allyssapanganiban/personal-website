@@ -19,7 +19,7 @@
 }
 
 .logo{
-    width: 50px;
+    width: 70px;
     cursor: pointer;
 }
 
@@ -72,7 +72,7 @@ a {
 }
 @media(max-width:830px){
     .navbar {
-        padding: 8px 50px;
+        padding: 8px 20px;
     }
     .nav-mob-open{
         display: block;
@@ -107,7 +107,7 @@ a {
         gap: 20px;
     }
     .logo{
-        width: 45px;
+        width: 50px;
     }
     .icon-container {
         display: none;

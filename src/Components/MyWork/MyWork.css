@@ -5,7 +5,7 @@
     justify-content: center;
     gap: 80px;
     margin: 80px auto;
-    width: calc(100% - 50px);
+    width: calc(100% - 45px);
     max-width: 1000px;
     margin-top: 100px;
 }
@@ -33,10 +33,9 @@
 @media(max-width:830px){
     .mywork{
         gap: 50px;
-        margin: 50px auto;
         align-items: center;
-
-        width: calc(100% - 50px);
+        padding: 0 20px;
+        width: 100%;
     }
     
     .mywork-container{
