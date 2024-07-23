@@ -36,7 +36,7 @@
 .experiences-format h2{
     font-size: 30px;
     font-weight: 800;
-    background: #7A1414;
+    background: #8365C8;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -54,11 +54,11 @@
 }
 
 .experiences-group p {
-    color: #7A1414;
+    color: #8365C8;
 }
 .experiences-format:hover{
-    border: 3px solid #7A1414;
-    background: #FBF2E5;
+    border: 3px solid #8365C8;
+    background: linear-gradient(to bottom right, #D1D0FB, #DAD0FD);
     transform: scale(1.01);
     transition: 0.4s;
 }

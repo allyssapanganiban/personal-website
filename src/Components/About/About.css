@@ -23,6 +23,7 @@
 .about-left img{
     width: 350px;
     border-radius: 10px;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.2);
 }
 .about-right{
     display: flex;
@@ -49,7 +50,7 @@
 }
 .about-para b {
     font-weight: 600;
-    color: #7A1414;
+    color: #8365C8;
 }
 
 .about-skills{
@@ -61,7 +62,7 @@
     align-items: center;
     transition: 0.3s;
     border-radius: 10px;
-    border: 2px solid #7A1414;
+    border: 2px solid #8365C8;
     font-weight: 700px; 
     padding: 3px 10px;
     font-size: 18px;
@@ -82,12 +83,12 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-align: center;
+    text-align: left;
 }
 
 .about-skill:hover {
-    border: 3px solid #7A1414;
-    background: #FBF2E5;
+    /* border: 3px solid #7A1414; */
+    background: linear-gradient(to bottom right, #D1D0FB, #DAD0FD);
     transform: scale(1.05);
     transition: 0.4s;
 }

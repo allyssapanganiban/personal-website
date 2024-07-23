@@ -38,11 +38,11 @@ const Navbar = () => {
       <img src={menu_open} onClick={openMenu} alt="" className='nav-mob-open' />
       <ul ref={menuRef} className="nav-menu">
         <img src={menu_close} onClick={closeMenu} alt="" className="nav-mob-close" />
-        <li><AnchorLink className='anchor-link' href='#home' offset={100}><p onClick={()=>setMenu("home")}>Home</p></AnchorLink>{menu==="home"?<img src={underline} alt=''/>:<></>}</li>
-        <li><AnchorLink className='anchor-link' offset={50} href='#about'><p onClick={()=>setMenu("about")}>About</p></AnchorLink>{menu==="about"?<img src={underline} alt=''/>:<></>}</li>
-        <li><AnchorLink className='anchor-link' offset={50} href='#experiences'><p onClick={()=>setMenu("experiences")}>Experiences</p></AnchorLink>{menu==="experiences"?<img src={underline} alt=''/>:<></>}</li>
-        <li><AnchorLink className='anchor-link' offset={50} href='#work'><p onClick={()=>setMenu("work")}>Projects</p></AnchorLink>{menu==="work"?<img src={underline} alt=''/>:<></>}</li>
-        <li><AnchorLink className='anchor-link' offset={50} href='#contact'><p onClick={()=>setMenu("contact")}>Resume</p></AnchorLink>{menu==="contact"?<img src={underline} alt=''/>:<></>}</li>
+        <li><AnchorLink className='anchor-link' href='#home' offset={100}><p onClick={() => setMenu("home")}className={menu === "home" ? 'active' : ''}>Home</p></AnchorLink></li>
+        <li><AnchorLink className='anchor-link' href='#about' offset={100}><p onClick={() => setMenu("about")}className={menu === "about" ? 'active' : ''}>About</p></AnchorLink></li>
+        <li><AnchorLink className='anchor-link' href='#experiences' offset={100}><p onClick={() => setMenu("experiences")}className={menu === "experiences" ? 'active' : ''}>Experiences</p></AnchorLink></li>
+        <li><AnchorLink className='anchor-link' href='#work' offset={100}><p onClick={() => setMenu("work")}className={menu === "work" ? 'active' : ''}>Projects</p></AnchorLink></li>
+        <li><AnchorLink className='anchor-link' href='#resume' offset={100}><p onClick={() => setMenu("resume")}className={menu === "resume" ? 'active' : ''}>Resume</p></AnchorLink></li>
       </ul>
       <li className="icon-container">
       <a href="mailto:apanga01@villanova.edu" target="_blank" rel="noopener noreferrer">

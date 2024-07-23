@@ -55,8 +55,13 @@ a {
     color: #262323;
 }
 
-.anchor-link:hover p {
+.anchor-link p {
+    font-weight: normal;
+}
+  
+.anchor-link p.active {
     font-weight: bold;
+    color: #8365C8;
 }
 
 .nav-mob-close{

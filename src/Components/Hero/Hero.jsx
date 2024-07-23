@@ -1,29 +1,48 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { motion } from 'framer-motion';
 import './Hero.css'
-import portfolio_picture from '../../assets/portfolio_picture.jpg'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import mail_icon from '../../assets/mail_icon.png';
 import circle from '../../assets/circle.png';
-// import AnimatedCircles from './AnimatedCircles.jsx'
-// import './AnimatedCircles.css'
-
-const circleVariants = {
-  animate: {
-    x: [0, 200, -200, 0], // adjust values based on desired animation path
-    y: [0, -200, 200, 0], // adjust values based on desired animation path
-    transition: {
-      duration: 8,
-      repeat: Infinity,
-      repeatType: "mirror",
-      ease: "easeInOut"
-    }
-  }
-};
 
 const Hero = () => {
+  const circleOpacities = {
+    circle1: 0.4,
+    circle2: 0.4,
+    circle3: 0.8,
+    circle4: 0.5,
+    circle5: 0.3
+  };
+
+  const circleVariants = (opacity) => ({
+    initial: { opacity: 0 },
+    animate: {
+      opacity: opacity,
+      x: [0, 10, -10, 0],
+      y: [0, -10, 10, 0],
+      transition: {
+        opacity: { duration: 1, delay: 1.5 },
+        duration: 8,
+        repeat: Infinity,
+        repeatType: "mirror",
+        ease: "easeInOut"
+      }
+    }
+  });
+
   return (
     <div id='home' className='hero'>
+      {Object.keys(circleOpacities).map((circleClass) => (
+        <motion.img 
+          key={circleClass}
+          src={circle} 
+          alt="Circle" 
+          className={`circle ${circleClass}`} 
+          initial="initial"
+          animate="animate"
+          variants={circleVariants(circleOpacities[circleClass])} 
+        />
+      ))}
       <motion.h1 
         initial={{ opacity: 0, y: 15 }}
         animate={{ opacity: 1, y: 0 }}
@@ -59,7 +78,7 @@ const Hero = () => {
         </div>
       </motion.div>
     </div>
-  )
+  );
 }
 
-export default Hero
+export default Hero;

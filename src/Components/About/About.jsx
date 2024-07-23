@@ -68,7 +68,7 @@ const About = () => {
                 </div>
                 <div className="about-skill">
                   <img src={javascript_icon} alt="" class="about-skills-icon"/>
-                  <p>Javascript</p>
+                  <p>Javascript/Typescript</p>
                 </div>
                 <div className="about-skill">
                   <img src={python_icon} alt="" class="about-skills-icon"/>
