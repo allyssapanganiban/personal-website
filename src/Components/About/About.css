@@ -64,7 +64,7 @@
     border-radius: 10px;
     border: 2px solid #8365C8;
     font-weight: 700px; 
-    padding: 3px 10px;
+    padding: 10px 10px;
     font-size: 18px;
     display: flex;
     gap: 10px;
@@ -76,8 +76,8 @@
 }
 
 .about-skill p{
-    line-height: 35px;
-    font-size: 20px;
+    line-height: 20px;
+    font-size: 18px;
     font-weight: 500;
     background: black;
     background-clip: text;
@@ -112,6 +112,9 @@
     .about-para h2 {
         font-size: 30px;
         line-height: 30px;
+    }
+    .about-skill {
+        padding: 5px;
     }
     .about-skill p{
         font-size: 14px;

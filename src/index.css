@@ -24,11 +24,11 @@ body{
   right: 0;
   z-index: -1;
 }
-@media(max-width: 768px){
+@media(max-width: 830px){
 
   .title-box h1{
     padding: 0px;
-    font-size: 35px;
+    font-size: 45px;
   }
   .title-box img{
     width: 100px;

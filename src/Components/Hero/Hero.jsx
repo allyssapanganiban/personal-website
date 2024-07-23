@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import { motion } from 'framer-motion';
 import './Hero.css'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
@@ -15,14 +15,14 @@ const Hero = () => {
   };
 
   const circleVariants = (opacity) => ({
-    initial: { opacity: 0 },
+    initial: { opacity: 0, y: 50 },
     animate: {
       opacity: opacity,
       x: [0, 10, -10, 0],
       y: [0, -10, 10, 0],
       transition: {
         opacity: { duration: 1, delay: 1.5 },
-        duration: 8,
+        duration: 15,
         repeat: Infinity,
         repeatType: "mirror",
         ease: "easeInOut"

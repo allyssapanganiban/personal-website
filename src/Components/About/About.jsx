@@ -68,7 +68,7 @@ const About = () => {
                 </div>
                 <div className="about-skill">
                   <img src={javascript_icon} alt="" class="about-skills-icon"/>
-                  <p>Javascript/Typescript</p>
+                  <p>Javascript & Typescript</p>
                 </div>
                 <div className="about-skill">
                   <img src={python_icon} alt="" class="about-skills-icon"/>
@@ -80,7 +80,7 @@ const About = () => {
                 </div>
                 <div className="about-skill">
                   <img src={react_icon} alt="" class="about-skills-icon"/>
-                  <p>React/React Native</p>
+                  <p>React & React Native</p>
                 </div>
                 <div className="about-skill">
                   <img src={node_icon} alt="" class="about-skills-icon"/>
