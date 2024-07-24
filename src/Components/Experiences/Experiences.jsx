@@ -50,10 +50,10 @@ const Experiences = () => {
             <h3>{service.s_name}</h3>
             <h4>{service.s_no}</h4>
             <p>{service.s_desc}</p>
-            <div className='experiences-group'>
+            <a href={service.s_link} target="_blank" rel="noopener noreferrer" className='experiences-group'>
               <p>{service.s_group}</p>
-              <img src={arrow_icon} className='group-img' />
-            </div>
+              <img src={arrow_icon} className='group-img' alt="Arrow Icon" />
+            </a>
           </motion.div>
         ))}
       </motion.div>

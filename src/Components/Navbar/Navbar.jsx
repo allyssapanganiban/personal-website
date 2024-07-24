@@ -6,7 +6,6 @@ import favicon from '../../assets/favicon.png'
 import mail_icon from '../../assets/mail_icon.png';
 import github_icon from '../../assets/github_icon.png';
 import linkedin_icon from '../../assets/linkedin_icon.png';
-import underline from '../../assets/nav_underline.svg';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import menu_open from '../../assets/menu_open.svg';
 import menu_close from '../../assets/menu_close.svg';
@@ -42,7 +41,11 @@ const Navbar = () => {
         <li><AnchorLink className='anchor-link' href='#about' offset={100}><p onClick={() => setMenu("about")}className={menu === "about" ? 'active' : ''}>About</p></AnchorLink></li>
         <li><AnchorLink className='anchor-link' href='#experiences' offset={100}><p onClick={() => setMenu("experiences")}className={menu === "experiences" ? 'active' : ''}>Experiences</p></AnchorLink></li>
         <li><AnchorLink className='anchor-link' href='#work' offset={100}><p onClick={() => setMenu("work")}className={menu === "work" ? 'active' : ''}>Projects</p></AnchorLink></li>
-        <li><AnchorLink className='anchor-link' href='#resume' offset={100}><p onClick={() => setMenu("resume")}className={menu === "resume" ? 'active' : ''}>Resume</p></AnchorLink></li>
+        <li>
+          <a href="https://drive.google.com/file/d/1PqEmQvukeT4M2SO9fx9AHPdCUT_V26Y4/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <p onClick={() => setMenu("resume")} className={menu === "resume" ? 'active' : ''}>Resume</p>
+          </a>
+        </li>
       </ul>
       <li className="icon-container">
       <a href="mailto:apanga01@villanova.edu" target="_blank" rel="noopener noreferrer">

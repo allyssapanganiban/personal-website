@@ -21,12 +21,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* gap: 10px; */
     padding: 15px;
     border-radius: 10px;
     border: 2px solid #C9C9C9;
     transition: 0.4s;
-    cursor: pointer;
     background: linear-gradient(to bottom right, #E6E6F3, #FFFFFF);
 }
 
@@ -43,6 +41,7 @@
     font-weight: 600;
     line-height: 35px;
 }
+
 .experiences-format h4{
     font-size: 24px;
     font-weight: 800;
@@ -58,18 +57,22 @@
     display: flex;
     align-items: center;
     margin-top: 20px;
-    border: 1px solid #C9C9C9;
-    border-radius: 10px;
-    padding: 5px 10px;
     gap: 10px;
     font-weight: bold;
-    background: linear-gradient(to bottom right, #E6E6F3, #FFFFFF);
-    width: auto;
+    cursor: pointer;
+    
+    text-decoration: none;
+    color: inherit;
+    /* width: auto; */
 }
 
 .experiences-group p {
     color: #504A49;
-    font-size: 17px;    
+    font-size: 18px;    
+}
+
+.experiences-group p:hover {
+    color: #8365C8;
 }
 
 .group-img {
@@ -94,16 +97,23 @@
         gap: 10px;
         padding: 20px;
     }
-    .experiences-format h2{
+    .experiences-format h3{
+        font-size: 23px;
+        line-height: 20px;
+    }
+    .experiences-format h4{
         font-size: 20px;
+        line-height: 20px;
     }
     .experiences-format p{
-        font-size:  16px;
-        line-height: 26px;
+        font-size: 17px;
+        line-height: 25px;
     }
-    
     .experiences-container{
         grid-template-columns: 1fr 1fr;
         gap: 15px;
+    }
+    .experiences-group p {
+        font-size: 14px;
     }
 }

@@ -1,41 +1,56 @@
-import project1_img from '../assets/project_1.svg'
-import project2_img from '../assets/project_2.svg'
-import project3_img from '../assets/project_3.svg'
-import project4_img from '../assets/project_4.svg'
-import project5_img from '../assets/project_5.svg'
-import project6_img from '../assets/project_6.svg'
+import grindbuddy from '../assets/grindbuddy.png'
+import metrosync from '../assets/metrosync.png'
+import placeholder from '../assets/placeholder.png'
 
 const mywork_data = [
     {
         w_no:1,
-        w_name:"Web design",
-        w_img:project1_img
+        w_name:"Grind Buddy",
+        w_img: grindbuddy,
+        w_desc: "A web app that connects and recommends study partners in your school.",
+        w_stack: "Javascript (Next.js)",
+        w_github: "https://github.com/jayco12/Grind-Buddy/tree/main",
     },
     {
         w_no:2,
-        w_name:"Web design",
-        w_img:project2_img
+        w_name:"Spotify Song Recommendation",
+        w_img: placeholder,
+        w_desc: "A web app that connects and recommends study partners in your school.",
+        w_stack: "Javascript (Next.js)",
+        w_github: "https://github.com/jayco12/Grind-Buddy/tree/main",
     },
     {
         w_no:3,
-        w_name:"Web design",
-        w_img:project3_img
+        w_name:"MetroSync",
+        w_img: metrosync,
+        w_desc: "A web app that shows live train updates for the NYC MTA transit lines.",
+        w_stack: "Javascript (React.js), Python (Flask)",
+        w_github: ""
     },
-    {
-        w_no:4,
-        w_name:"Web design",
-        w_img:project4_img
-    },
-    {
-        w_no:5,
-        w_name:"Web design",
-        w_img:project5_img
-    },
-    {
-        w_no:6,
-        w_name:"Web design",
-        w_img:project6_img
-    },
+    // {
+    //     w_no:4,
+    //     w_name:"Web design",
+    //     w_img: placeholder,
+    //     w_desc: "A web app that connects and recommends study partners in your school.",
+    //     w_stack: "Javascript (Next.js)",
+    //     w_github: "https://github.com/jayco12/Grind-Buddy/tree/main",
+    // },
+    // {
+    //     w_no:5,
+    //     w_name:"Web design",
+    //     w_img: placeholder,
+    //     w_desc: "A web app that connects and recommends study partners in your school.",
+    //     w_stack: "Javascript (Next.js)",
+    //     w_github: "https://github.com/jayco12/Grind-Buddy/tree/main",
+    // },
+    // {
+    //     w_no:6,
+    //     w_name:"Web design",
+    //     w_img: placeholder,
+    //     w_desc: "A web app that connects and recommends study partners in your school.",
+    //     w_stack: "Javascript (Next.js)",
+    //     w_github: "https://github.com/jayco12/Grind-Buddy/tree/main",
+    // },
 ]
  
 export default mywork_data;

@@ -11,7 +11,6 @@
     margin: 80px auto;
     margin-top: 100px;
 }
-/* fix width, goes beyond when smaller screens */
 
 .about-sections{
     display: flex;
@@ -68,7 +67,7 @@
     font-size: 18px;
     display: flex;
     gap: 10px;
-    background: white;
+    background: linear-gradient(to bottom right, #E6E6F3, #FFFFFF);
 }
 /* fix width, still little bit when width is near @media */
 
