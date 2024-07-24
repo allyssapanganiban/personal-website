@@ -16,7 +16,7 @@ const Services_Data = [
         s_no:"July 2024 - Present",
         s_pic: headstarter,
         s_name:"Software Engineer Fellow",
-        s_desc:"Web development is the process of building, programming...",
+        s_desc:"Build 5 AI projects and one final project with the goal to ship to 1000 users and/or generate $1000 in revenue in 7 weeks.",
         s_group: "Headstarter AI"
     },
     {
