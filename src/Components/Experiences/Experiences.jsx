@@ -12,6 +12,7 @@ const Experiences = () => {
       <div className="experiences-container">
         {Services_Data.map((service,index)=>{
           return <div key={index} className='experiences-format'>
+             <img src={service.s_pic} alt={service.s_name} className='experience-image' />
              <h3>{service.s_no}</h3>
              <h2>{service.s_name}</h2>
              <p>{service.s_desc}</p>
