@@ -1,3 +1,4 @@
+/* light mode */
 /* :root {
   --background-color: #FBFBFD;
   --light-purple: #8365C8;
@@ -10,6 +11,7 @@
   --gradient2-color: #FFFFFF;
 } */
 
+/* dark mode */
 :root {
   --background-color: #0F101F;
   --light-purple: #a483db;
