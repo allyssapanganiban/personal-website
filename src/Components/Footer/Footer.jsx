@@ -1,8 +1,8 @@
 import React from 'react'
 import './Footer.css'
-import mail_icon from '../../assets/mail_icon.png';
-import github_icon from '../../assets/github_icon.png';
-import linkedin_icon from '../../assets/linkedin_icon.png';
+import mail_icon from '../../assets/mail_icon.svg';
+import github_icon from '../../assets/github_icon.svg';
+import linkedin_icon from '../../assets/linkedin_icon.svg';
 
 const Footer = () => {
   return (
@@ -20,7 +20,6 @@ const Footer = () => {
         <a href="https://www.linkedin.com/in/allyssapanganiban" target="_blank" rel="noopener noreferrer">
           <img src={linkedin_icon} alt="LinkedIn" className='footer-icon'/></a>
       </li>
-      <hr />
     </div>
   )
 }

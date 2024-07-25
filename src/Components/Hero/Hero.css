@@ -20,28 +20,28 @@
 .circle1 {
     width: 150px;
     height: 150px;
-    top: -70%;
+    top: -60%;
     left: 8%;
 }
   
 .circle2 {
     width: 150px;
     height: 150px;
-    top: -50%;
+    top: -40%;
     left: 2%;
 }
   
 .circle3 {
     width: 120px;
     height: 120px;
-    top: -50%;
+    top: -20%;
     right: 10%;
 }
 
 .circle4 {
     width: 80px;
     height: 80px;
-    top: 20%;
+    top: 30%;
     right: 2%;
 }
 
@@ -65,14 +65,14 @@
     display: inline-block;
     overflow: hidden;
     white-space: nowrap;
-    border-right: .12em solid #8365C8;
+    border-right: .12em solid var(--light-purple);
     animation: typing 2s steps(40, end) forwards, blink .6s step-end infinite;
     vertical-align: top;
     margin-bottom: 0;
 }
 
 .name-highlight {
-    background: #8365C8;
+    background: var(--light-purple);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -84,6 +84,7 @@
     font-size: 70px;
     font-weight: 600;
     line-height: 60px;
+    color: var(--header-color);
 }
 
 .hero h2{
@@ -92,13 +93,14 @@
     font-size: 45px;
     font-weight: 600;
     line-height: 35px;
+    color: var(--header-color);
 }
 .hero p{
     width: 57%;
     text-align: center;
     font-size: 25px;
     line-height: 30px;
-    color: #504A49;
+    color: var(--text-color);
 }
 .hero-action{
     display: flex;
@@ -109,25 +111,26 @@
 }
 .hero-connect{
     padding: 15px 25px;
-    border: 3px solid #8365C8;
+    border: 3px solid var(--light-purple);
     border-radius: 10px;
-    background: #FBFBFD; 
+    background: var(--background-color); 
     font-weight: 700px;
     cursor: pointer;
     font-size: 18px;
-    color: #8365C8;
+    color: var(--light-purple);
 }
 
 .hero-connect:hover{
-    /* border: 4px solid #7A1414; */
-    background: white;
+    background: var(--gradient2-color);
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .email-link {
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: black;
+    color: var(--header-color);
 }
   
 .mail-icon {

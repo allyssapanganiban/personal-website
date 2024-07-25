@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #FBFBFD;
+    background: var(--background-color);
     margin: 0px auto;
     position: sticky;
     z-index: 1000;
@@ -31,7 +31,8 @@ a {
 
 .icon{
     width: 20px; 
-    vertical-align: middle;   
+    vertical-align: middle;  
+    color: var(--header-color); 
 }
 
 .icon-container {
@@ -54,7 +55,7 @@ a {
 
 .anchor-link{
     text-decoration: none;
-    color: #262323;
+    color: var(--header-color);
 }
 
 .anchor-link p {
@@ -64,19 +65,19 @@ a {
 .anchor-link p.active,
 .anchor-link.active p {
     font-weight: bold;
-    color: #8365C8;
+    color: var(--light-purple);
 }
 
 .nav-mob-close{
     display: none;
     cursor: pointer;
-    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(100%);
+    filter: var(--header-color);
 }
 .nav-mob-open{
     display: none;
     cursor: pointer;
     width: 30px;
-    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(100%);
+    filter: var(--header-color);
 }
 @media(max-width:830px){
     .navbar {
@@ -100,7 +101,7 @@ a {
         align-items: start;
         top: 0;
         gap: 30px;
-        background-color: #FBFBFD;
+        background-color: var(--background-color);
         width: 300px;
         height: 100%;
         z-index: 2;

@@ -38,18 +38,18 @@
     font-size: 21px;
     font-weight: 500;
     line-height: 35px;
-    color: #504A49;
+    color: var(--text-color);
     width: 100%;
 }
 
 .about-para h2 {
     font-size: 45px;
     line-height: 50px;
-    color: black;
+    color: var(--header-color);
 }
 .about-para b {
     font-weight: 600;
-    color: #8365C8;
+    color: var(--light-purple);
 }
 
 .about-skills{
@@ -61,13 +61,13 @@
     align-items: center;
     transition: 0.3s;
     border-radius: 10px;
-    border: 2px solid #8365C8;
+    border: 2px solid var(--light-purple);
     font-weight: 700px; 
     padding: 10px 10px;
     font-size: 18px;
     display: flex;
     gap: 10px;
-    background: linear-gradient(to bottom right, #E6E6F3, #FFFFFF);
+    background: var(--gradient2-color);
 }
 /* fix width, still little bit when width is near @media */
 
@@ -78,8 +78,7 @@
 .about-skill p{
     line-height: 20px;
     font-size: 18px;
-    font-weight: 500;
-    background: black;
+    background: var(--header-color);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -87,11 +86,11 @@
 }
 
 .about-skill:hover {
-    background: linear-gradient(to bottom right, #D1D0FB, #DAD0FD);
     transform: scale(1.05);
-    transition: 0.4s;
     box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
+    background: linear-gradient(to bottom right, var(--gradient1-color), var(--gradient2-color));
+
 }
 
 @media(max-width:830px){

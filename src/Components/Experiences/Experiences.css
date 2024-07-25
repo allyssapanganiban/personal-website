@@ -23,8 +23,8 @@
     justify-content: center;
     padding: 15px;
     border-radius: 10px;
-    border: 2px solid #C9C9C9;
-    background: linear-gradient(to bottom right, #E6E6F3, #FFFFFF);
+    border: 2px solid var(--experience-border);
+    background: linear-gradient(to bottom right, var(--gradient1-color), var(--gradient2-color));
     transition: transform 0.3s, box-shadow 0.3s, border 0.3s;
 }
 
@@ -40,16 +40,17 @@
     font-size: 28px;
     font-weight: 600;
     line-height: 35px;
+    color: var(--header-color);
 }
 
 .experiences-format h4{
     font-size: 24px;
     font-weight: 800;
-    color: #D169EB;
+    color: var(--subheader-color);
     line-height: 35px;
 }
 .experiences-format p{
-    color: #504A49;
+    color: var(--text-color);
     font-size: 20px;
     line-height: 30px;
 }
@@ -66,23 +67,26 @@
 }
 
 .experiences-group p {
-    color: #504A49;
+    color: var(--header-color);
     font-size: 18px;    
 }
 
 .experiences-group p:hover {
-    color: #8365C8;
+    color: var(--light-purple);
 }
 
 .group-img {
     width: 20px;
     height: auto;
-    fill: #504A49;
+}
+
+.group-icon path {
+    color: var(--header-color);
 }
 
 .experiences-format:hover{
     transform: scale(1.03);
-    border: 2px solid #8365C8;
+    border: 2px solid var(--light-purple);
     box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
 }

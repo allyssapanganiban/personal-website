@@ -3,9 +3,9 @@ import { motion } from 'framer-motion';
 // import { Link } from 'react-router-dom';
 import './Navbar.css';
 import favicon from '../../assets/favicon.png'
-import mail_icon from '../../assets/mail_icon.png';
-import github_icon from '../../assets/github_icon.png';
-import linkedin_icon from '../../assets/linkedin_icon.png';
+import mail_icon from '../../assets/mail_icon.svg';
+import github_icon from '../../assets/github_icon.svg';
+import linkedin_icon from '../../assets/linkedin_icon.svg';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import menu_open from '../../assets/menu_open.svg';
 import menu_close from '../../assets/menu_close.svg';

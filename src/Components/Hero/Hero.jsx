@@ -2,8 +2,9 @@ import React from 'react'
 import { motion } from 'framer-motion';
 import './Hero.css'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-import mail_icon from '../../assets/mail_icon.png';
+import mail_icon from '../../assets/mail_icon.svg';
 import circle from '../../assets/circle.png';
+import circle2 from '../../assets/circle2.png'
 
 const Hero = () => {
   const circleOpacities = {
@@ -21,7 +22,7 @@ const Hero = () => {
       x: [0, 10, -10, 0],
       y: [0, -10, 10, 0],
       transition: {
-        opacity: { duration: 1, delay: 1.5 },
+        opacity: { duration: 1, delay: 1.8 },
         duration: 9,
         repeat: Infinity,
         repeatType: "mirror",
@@ -35,7 +36,7 @@ const Hero = () => {
       {Object.keys(circleOpacities).map((circleClass) => (
         <motion.img 
           key={circleClass}
-          src={circle} 
+          src={circle2} 
           alt="Circle" 
           className={`circle ${circleClass}`} 
           initial="initial"
@@ -46,7 +47,7 @@ const Hero = () => {
       <motion.h1 
         initial={{ opacity: 0, y: 15 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.4, delay: 0.6 }}
+        transition={{ duration: 0.5, delay: 0.6 }}
       >
         <span className="typing-demo">Hi, I'm <span className="name-highlight">Allyssa</span>.</span>
       </motion.h1>

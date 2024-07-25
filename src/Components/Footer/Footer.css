@@ -4,6 +4,7 @@
     flex-direction: column;
     gap: 20px;
     align-items: center;
+    margin-bottom: 50px;
 }
 .footer-top{
     display: flex;
@@ -12,6 +13,7 @@
 .footer-top-left p{
     font-size: 18px;
     max-width: 450px;
+    line-height: 20px;
 }
 .footer-icon {
     width: 20px; 

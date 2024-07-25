@@ -3,7 +3,7 @@ import './MyWork.css'
 import mywork_data from '../../assets/mywork_data'
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import github_icon from '../../assets/github_icon.png';
+import github_icon from '../../assets/github_icon.svg';
 
 const WorkItem = ({ work }) => {
   const { ref, inView } = useInView({
