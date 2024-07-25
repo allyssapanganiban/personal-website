@@ -37,3 +37,9 @@ body{
     right: -40px;
   }
 }
+
+@media(max-width: 500px){
+  .title-box h1{
+    font-size: 35px;
+  }
+}
