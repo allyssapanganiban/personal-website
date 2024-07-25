@@ -93,7 +93,7 @@
     line-height: 35px;
 }
 .hero p{
-    width: 50%;
+    width: 57%;
     text-align: center;
     font-size: 25px;
     line-height: 30px;
@@ -165,10 +165,11 @@
     .hero h2{
         width: 90%;
         font-size: 35px;
-        line-height: 30px;
+        line-height: 25px;
     }
     .hero p{
         width: 80%;
+        max-width: 550px;
         font-size: 20px;
         line-height: 20px;
         margin: 5px 0px;

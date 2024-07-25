@@ -62,7 +62,6 @@
     align-items: center;
     opacity: 0;
     transition: opacity 0.3s;
-    /* border-radius: 13px; */
 }
   
 .work-item:hover .work-hover {
@@ -84,7 +83,7 @@
   
 .work-hover .work-stack {
     font-size: 20px;
-    color: #D169EB;
+    color: #784edb;
     font-weight: bold;
     line-height: 35px;
 }
@@ -107,6 +106,9 @@
         grid-template-columns: 1fr 1fr;
         gap: 20px;
     }
+    .work-hover {
+        height: 60%;
+    }
     .work-hover h2 {
         font-size: 25px;
         line-height: 25px;
@@ -117,7 +119,6 @@
     }
     .work-hover .work-stack {
         font-size: 15px;
-        color: #D169EB;
         line-height: 20px;
     }
     

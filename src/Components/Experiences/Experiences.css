@@ -24,8 +24,8 @@
     padding: 15px;
     border-radius: 10px;
     border: 2px solid #C9C9C9;
-    transition: 0.4s;
     background: linear-gradient(to bottom right, #E6E6F3, #FFFFFF);
+    transition: transform 0.3s, box-shadow 0.3s, border 0.3s;
 }
 
 .experience-image {
@@ -63,7 +63,6 @@
 
     text-decoration: none;
     color: inherit;
-    /* width: auto; */
 }
 
 .experiences-group p {
@@ -82,9 +81,9 @@
 }
 
 .experiences-format:hover{
+    transform: scale(1.03);
     border: 2px solid #8365C8;
     box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
     border-radius: 15px;
 }
 @media(max-width:830px){

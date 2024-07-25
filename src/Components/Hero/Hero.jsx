@@ -62,7 +62,8 @@ const Hero = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.4, delay: 1 }}
       >
-        Add blurb about interest & passion - career goal.
+        Software engineer. Deciphering the magic of technology to create high-impact solutions and enhance user experiences.
+        {/* A passionate software engineer, leveraging technology to create impactful solutions and enhance user experiences. */}
       </motion.p>
       <motion.div 
         className="hero-action"
