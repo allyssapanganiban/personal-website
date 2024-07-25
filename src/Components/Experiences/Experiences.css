@@ -122,4 +122,8 @@
     .experience-image {
         display: none;
       }
+    .experiences-container {
+        grid-template-columns: 1fr 1fr;
+
+    }
 }
