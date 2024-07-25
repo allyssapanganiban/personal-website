@@ -60,7 +60,7 @@
     gap: 10px;
     font-weight: bold;
     cursor: pointer;
-    
+
     text-decoration: none;
     color: inherit;
     /* width: auto; */
@@ -116,4 +116,10 @@
     .experiences-group p {
         font-size: 14px;
     }
+}
+
+@media(max-width:500px){
+    .experience-image {
+        display: none;
+      }
 }

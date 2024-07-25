@@ -36,9 +36,11 @@
     }
     .footer-top-left p{
         font-size: 15px;
+        line-height: 15px;
+
     }
     .footer-icon {
-        width: 18px; 
+        width: 16px; 
     }
     .footer-icon-container {
         display: flex;
