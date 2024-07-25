@@ -57,7 +57,7 @@ const About = () => {
         >
             <div className="about-para">
                 <h2>I am a software engineer from Toms River, NJ.</h2>
-                <p>I am an incoming junior at <b>Villanova University</b> studying Computer Science with a minor in Business. At Villanova, I am the VP of Programs for the Girls Who Code chapter, and involved in other organizations such as NovaCANE, FASA, SASE, and the Programming Team.</p>
+                <p>I am a junior at <b>Villanova University</b> studying Computer Science with a minor in Business. I am a driven learner who is curious in the intersection between technology and business.</p>
                 <p>Here are some languages/technologies I have been working with:</p>
             </div>
             {/* Skills */}

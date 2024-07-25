@@ -34,4 +34,14 @@
     .footer-icon-container {
         gap: 30px;
     }
+    .footer-top-left p{
+        font-size: 15px;
+    }
+    .footer-icon {
+        width: 18px; 
+    }
+    .footer-icon-container {
+        display: flex;
+        gap: 30px;
+    }
 }
