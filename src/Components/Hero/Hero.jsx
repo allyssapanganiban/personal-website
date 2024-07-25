@@ -22,7 +22,7 @@ const Hero = () => {
       y: [0, -10, 10, 0],
       transition: {
         opacity: { duration: 1, delay: 1.5 },
-        duration: 13,
+        duration: 9,
         repeat: Infinity,
         repeatType: "mirror",
         ease: "easeInOut"

@@ -6,6 +6,7 @@
     margin-top: 250px;
     margin: 15px auto;
     margin-top: 250px;
+    margin-bottom: 150px;
     width: 100%;
     max-width: 1125px;
     position: relative;
@@ -20,35 +21,35 @@
     width: 150px;
     height: 150px;
     top: -70%;
-    left: 13%;
+    left: 8%;
 }
   
 .circle2 {
     width: 150px;
     height: 150px;
     top: -50%;
-    left: 5%;
+    left: 2%;
 }
   
 .circle3 {
     width: 120px;
     height: 120px;
     top: -50%;
-    right: 12%;
+    right: 10%;
 }
 
 .circle4 {
     width: 80px;
     height: 80px;
     top: 20%;
-    right: 5%;
+    right: 2%;
 }
 
 .circle5 {
     width: 70px;
     height: 70px;
     bottom: 10%;
-    right: 15%;
+    right: 13%;
 }
 
 @keyframes typing {
