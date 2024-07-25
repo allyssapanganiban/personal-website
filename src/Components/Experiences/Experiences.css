@@ -119,9 +119,6 @@
 }
 
 @media(max-width:500px){
-    .experience-image {
-        display: none;
-      }
     .experiences-container {
         grid-template-columns: 1fr;
     }

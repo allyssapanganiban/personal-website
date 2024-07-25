@@ -8,6 +8,7 @@ body{
   background: #FBFBFD;
   color: #262323;
   font-family: 'NTR', sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 .title-box{
   position: relative;
