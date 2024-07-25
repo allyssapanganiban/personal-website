@@ -1,6 +1,6 @@
 import grindbuddy from '../assets/grindbuddy.png'
 import metrosync from '../assets/metrosync.png'
-import placeholder from '../assets/placeholder.png'
+import spotifysong from '../assets/spotifysong.png'
 
 const mywork_data = [
     {
@@ -14,10 +14,10 @@ const mywork_data = [
     {
         w_no:2,
         w_name:"Spotify Song Recommendation",
-        w_img: placeholder,
-        w_desc: "A web app that connects and recommends study partners in your school.",
-        w_stack: "Javascript (Next.js)",
-        w_github: "https://github.com/jayco12/Grind-Buddy/tree/main",
+        w_img: spotifysong,
+        w_desc: "A class project to create a music recommendation system with unsupervised ML.",
+        w_stack: "Python (Data Analysis/Visualization)",
+        w_github: "https://https://github.com/apanga01/spotify-song-recommendation",
     },
     {
         w_no:3,

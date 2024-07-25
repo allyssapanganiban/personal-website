@@ -91,6 +91,8 @@
     background: linear-gradient(to bottom right, #D1D0FB, #DAD0FD);
     transform: scale(1.05);
     transition: 0.4s;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
 @media(max-width:830px){
