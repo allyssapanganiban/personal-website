@@ -17,11 +17,14 @@
 }
 .footer-icon {
     width: 20px; 
-    vertical-align: middle;   
+    height: 20px;
+    vertical-align: middle;
+    cursor: pointer;   
 }
 
 .footer-icon-container {
     display: flex;
+    align-items: center;
     gap: 30px;
 }
 
@@ -35,6 +38,8 @@
     }
     .footer-icon-container {
         gap: 30px;
+        display: flex;
+        gap: 30px;
     }
     .footer-top-left p{
         font-size: 15px;
@@ -42,10 +47,9 @@
 
     }
     .footer-icon {
-        width: 16px; 
+        width: 16px;
+        height: 16px;
+        cursor: pointer;
     }
-    .footer-icon-container {
-        display: flex;
-        gap: 30px;
-    }
+
 }
