@@ -1,25 +1,31 @@
-import React from 'react';
-// import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
+import React, { useState } from 'react';
 import Navbar from './Components/Navbar/Navbar';
 import Hero from './Components/Hero/Hero';
 import About from './Components/About/About';
 import Experiences from './Components/Experiences/Experiences';
 import MyWork from './Components/MyWork/MyWork';
 import Footer from './Components/Footer/Footer';
-// import AnimatedCircles from './Components/Hero/AnimatedCircles';
-// import Resume from './Components/Resume/Resume';
+import './index.css'
 
 const App = () => {
+  const [theme, setTheme] = useState("light");
+
+  const toggleTheme = () => {
+    const newTheme = theme === "light" ? "dark" : "light";
+    setTheme(newTheme);
+    document.documentElement.setAttribute('data-theme', newTheme);
+  };
+
   return (
-    <div>
-      <Navbar/>
-      <Hero/>
-      <About/>
-      <Experiences/>
-      <MyWork/>
-      <Footer/>
+    <div className={`app ${theme}`}>
+      <Navbar theme={theme} toggleTheme={toggleTheme} />
+      <Hero theme={theme} />
+      <About theme={theme} />
+      <Experiences theme={theme} />
+      <MyWork theme={theme} />
+      <Footer theme={theme} toggleTheme={toggleTheme} />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

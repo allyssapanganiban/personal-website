@@ -32,6 +32,7 @@ a {
 .icon{
     width: 20px; 
     vertical-align: middle;  
+    cursor: pointer;
     color: var(--header-color); 
 }
 

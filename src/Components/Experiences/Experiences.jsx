@@ -1,11 +1,12 @@
-import React from 'react'
-import './Experiences.css'
-import Services_Data from '../../assets/services_data'
-import arrow_icon from '../../assets/arrow_icon.svg'
+import React from 'react';
+import './Experiences.css';
+import Services_Data from '../../assets/services_data';
+import arrow_icon from '../../assets/arrow_icon.svg';
+import arrow_icon2 from '../../assets/arrow_icon2.svg';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
-const Experiences = () => {
+const Experiences = ({ theme }) => {
   const { ref: titleRef, inView: titleInView } = useInView({
     triggerOnce: true,
     threshold: 0.1,
@@ -52,7 +53,7 @@ const Experiences = () => {
             <p>{service.s_desc}</p>
             <a href={service.s_link} target="_blank" rel="noopener noreferrer" className='experiences-group'>
               <p>{service.s_group}</p>
-              <img src={arrow_icon} className='group-img' alt="Arrow Icon" />
+              <img src={theme === "light" ? arrow_icon2 : arrow_icon} className='group-img' alt="Arrow Icon" />
             </a>
           </motion.div>
         ))}

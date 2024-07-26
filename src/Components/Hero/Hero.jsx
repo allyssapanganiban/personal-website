@@ -5,8 +5,9 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 import mail_icon from '../../assets/mail_icon.svg';
 import circle from '../../assets/circle.png';
 import circle2 from '../../assets/circle2.png'
+import mail_icon2 from '../../assets/mail_icon2.svg'
 
-const Hero = () => {
+const Hero = ({ theme, toggleTheme }) => {
   const circleOpacities = {
     circle1: 0.4,
     circle2: 0.4,
@@ -74,7 +75,7 @@ const Hero = () => {
       >
         <div className="hero-connect">
           <a href="mailto:apanga01@villanova.edu" className='email-link'>
-            <img src={mail_icon} alt="Mail Icon" className='mail-icon' />
+            <img src={theme === "light" ? mail_icon2 : mail_icon} alt="Mail Icon" className='mail-icon' />
             Say hello!
           </a>
         </div>

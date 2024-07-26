@@ -1,5 +1,5 @@
 /* light mode */
-/* :root {
+:root {
   --background-color: #FBFBFD;
   --light-purple: #8365C8;
   --header-color: #000000;
@@ -9,10 +9,10 @@
   --experience-border: #C9C9C9;
   --gradient1-color: #E6E6F3;
   --gradient2-color: #FFFFFF;
-} */
+}
 
 /* dark mode */
-:root {
+[data-theme="dark"] {
   --background-color: #0F101F;
   --light-purple: #a483db;
   --header-color: #DDE5FF;

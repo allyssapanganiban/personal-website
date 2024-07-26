@@ -4,8 +4,9 @@ import mywork_data from '../../assets/mywork_data'
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import github_icon from '../../assets/github_icon.svg';
+import github_icon2 from '../../assets/github_icon2.svg';
 
-const WorkItem = ({ work }) => {
+const WorkItem = ({ work, theme }) => {
   const { ref, inView } = useInView({
     triggerOnce: true,
     threshold: 0.1,
@@ -30,14 +31,14 @@ const WorkItem = ({ work }) => {
         <p>{work.w_desc}</p>
         <p className="work-stack">{work.w_stack}</p>
         <a href={work.w_github} target="_blank" rel="noopener noreferrer">
-          <img src={github_icon} alt="GitHub Icon" className="github-icon"/>
+          <img src={theme === "light" ? github_icon2 : github_icon} alt="GitHub Icon" className="github-icon"/>
         </a>
       </div>
     </motion.div>
   );
 };
 
-const MyWork = () => {
+const MyWork = ({ theme }) => {
   const { ref: titleRef, inView: titleInView } = useInView({
     triggerOnce: true,
     threshold: 0.1,
@@ -56,7 +57,7 @@ const MyWork = () => {
       </motion.div>
       <div className="mywork-container">
         {mywork_data.map((work, index) => (
-          <WorkItem key={index} work={work} />
+          <WorkItem key={index} work={work} theme={theme} />
         ))}
       </div>
     </div>
