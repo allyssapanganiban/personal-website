@@ -17,7 +17,7 @@ const mywork_data = [
         w_img: spotifysong,
         w_desc: "A class project to create a music recommendation system with unsupervised ML.",
         w_stack: "Python (Data Analysis/Visualization)",
-        w_github: "https://github.com/apanga01/spotify-song-recommendation",
+        w_github: "https://github.com/allyssapanganiban/spotify-song-recommendation",
     },
     {
         w_no:3,

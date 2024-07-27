@@ -22,7 +22,7 @@ const Footer = ({ theme, toggleTheme }) => {
         <img src={theme === "light" ? dark_icon : light_icon} alt="Toggle Theme" className='footer-icon' onClick={toggleTheme}  />
         <a href="mailto:apanga01@villanova.edu" target="_blank" rel="noopener noreferrer">
           <img src={theme === "light" ? mail_icon2 : mail_icon} alt="Mail" className='footer-icon' /></a>
-        <a href="https://www.github.com/apanga01" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/allyssapanganiban/" target="_blank" rel="noopener noreferrer">
           <img src={theme === "light" ? github_icon2 : github_icon} alt="GitHub" className='footer-icon' /></a>
         <a href="https://www.linkedin.com/in/allyssapanganiban" target="_blank" rel="noopener noreferrer">
           <img src={theme === "light" ? linkedin_icon2 : linkedin_icon} alt="LinkedIn" className='footer-icon' /></a>
