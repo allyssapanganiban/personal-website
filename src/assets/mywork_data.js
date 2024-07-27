@@ -5,7 +5,7 @@ import spotifysong from '../assets/spotifysong.png'
 const mywork_data = [
     {
         w_no:1,
-        w_name:"Grind Buddy",
+        w_name:"Grind Buddy (WIP)",
         w_img: grindbuddy,
         w_desc: "A web app that connects and recommends study partners in your school.",
         w_stack: "Javascript (Next.js)",
@@ -21,7 +21,7 @@ const mywork_data = [
     },
     {
         w_no:3,
-        w_name:"MetroSync",
+        w_name:"MetroSync (WIP)",
         w_img: metrosync,
         w_desc: "A web app that shows live train updates for the NYC MTA transit lines.",
         w_stack: "Javascript (React.js), Python (Flask)",
