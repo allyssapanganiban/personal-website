@@ -11,6 +11,9 @@ import react_icon from '../../assets/react_icon.png'
 import node_icon from '../../assets/node_icon.png'
 import python_icon from '../../assets/python_icon.png'
 import java_icon from '../../assets/java_icon.png'
+import figma_icon from '../../assets/figma_icon.png'
+import nextjs_icon from '../../assets/nextjs_icon.png'
+import firebase_icon from '../../assets/firebase_icon.png'
 
 const About = () => {
   const { ref: titleRef, inView: titleInView } = useInView({
@@ -65,6 +68,10 @@ const About = () => {
             {/* Skills */}
             <div className="about-skills">
                 <div className="about-skill">
+                  <img src={figma_icon} alt="" class="about-skills-icon"/>
+                  <p>Figma</p>
+                </div>
+                <div className="about-skill">
                   <img src={css_icon} alt="" class="about-skills-icon"/>
                   <p>HTML & CSS</p>
                 </div>
@@ -87,6 +94,14 @@ const About = () => {
                 <div className="about-skill">
                   <img src={node_icon} alt="" class="about-skills-icon"/>
                   <p>Node.js</p>
+                </div>
+                <div className="about-skill">
+                  <img src={nextjs_icon} alt="" class="about-skills-icon"/>
+                  <p>Next.js</p>
+                </div>
+                <div className="about-skill">
+                  <img src={firebase_icon} alt="" class="about-skills-icon"/>
+                  <p>Firebase</p>
                 </div>
             </div>
           </motion.div>
