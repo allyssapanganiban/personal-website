@@ -63,7 +63,7 @@ const About = () => {
             <div className="about-para">
                 <h2>I am a software engineer from Toms River, NJ.</h2>
                 <p>I am a junior at <b>Villanova University</b> pursuing Computer Science with a minor in Business, specializing in AI/ML. I am a driven learner who is curious in the intersection between technology and business, and I am fascinated by leveraging technology to create meaningful impact.</p>
-                <p> My primary interests currently lie in <b>front-end development</b> and <b>data science</b> - I love creating visually appealing user interfaces that enhance the user experience. Simultaneously, I uncover insights from data to drive decision-making and innovation. Here are some technologies I have been working with:</p>
+                <p> My primary interests currently lie in <b>full-stack development</b> and <b>data science</b> - I love creating comprehensive applications that enhance the user experience. Simultaneously, I uncover insights from data to drive decision-making and innovation. Here are some technologies I have been working with:</p>
             </div>
             {/* Skills */}
             <div className="about-skills">
