@@ -51,7 +51,7 @@ const Navbar = ({ theme, toggleTheme }) => {
         <li><AnchorLink className='anchor-link' href='#experiences' offset={100}><p onClick={() => setMenu("experiences")}className={menu === "experiences" ? 'active' : ''}>Experiences</p></AnchorLink></li>
         <li><AnchorLink className='anchor-link' href='#work' offset={100}><p onClick={() => setMenu("work")}className={menu === "work" ? 'active' : ''}>Projects</p></AnchorLink></li>
         <li>
-          <a href="https://drive.google.com/file/d/1DgoTsTL9RtFww0rPBppl34qnBQT4IKJc/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+          <a href="https://drive.google.com/file/d/10Rvt6lo8-4qcw6m8W1ClwIbkUZbuFR9-/view?usp=sharing" target="_blank" rel="noopener noreferrer">
             <p onClick={() => setMenu("resume")} className={menu === "resume" ? 'active' : ''}>Resume</p>
           </a>
         </li>
