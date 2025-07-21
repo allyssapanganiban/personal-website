@@ -88,6 +88,18 @@
     line-height: 35px;
 }
 
+.work-links {
+  display: flex;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.icon, .github-icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
 .github-icon {
     width: 25px;
     height: 25px;

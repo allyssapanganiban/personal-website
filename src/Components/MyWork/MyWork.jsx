@@ -5,6 +5,8 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import github_icon from '../../assets/github_icon.svg';
 import github_icon2 from '../../assets/github_icon2.svg';
+import figma_icon from '../../assets/figma_icon.png';
+import powerpoint from '../../assets/powerpoint.png';
 
 const WorkItem = ({ work, theme }) => {
   const { ref, inView } = useInView({
@@ -30,9 +32,23 @@ const WorkItem = ({ work, theme }) => {
         <h2>{work.w_name}</h2>
         <p>{work.w_desc}</p>
         <p className="work-stack">{work.w_stack}</p>
-        <a href={work.w_github} target="_blank" rel="noopener noreferrer">
-          <img src={theme === "light" ? github_icon2 : github_icon} alt="GitHub Icon" className="github-icon"/>
-        </a>
+        <div className="work-links">
+          {work.w_figma && (
+            <a href={work.w_figma} target="_blank" rel="noopener noreferrer">
+              <img src={figma_icon} alt="Figma" className="icon" />
+            </a>
+          )}
+          {work.w_powerpoint && (
+            <a href={work.w_powerpoint} target="_blank" rel="noopener noreferrer">
+              <img src={powerpoint} alt="PowerPoint" className="icon" />
+            </a>
+          )}
+          {work.w_github && (
+            <a href={work.w_github} target="_blank" rel="noopener noreferrer">
+              <img src={theme === "light" ? github_icon2 : github_icon} alt="GitHub" className="github-icon" />
+            </a>
+          )}
+        </div>
       </div>
     </motion.div>
   );

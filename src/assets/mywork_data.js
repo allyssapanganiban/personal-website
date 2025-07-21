@@ -2,6 +2,7 @@ import educationbot from '../assets/educationbot.png'
 import grindbuddy from '../assets/grindbuddy.png'
 import metrosync from '../assets/metrosync.png'
 import spotifysong from '../assets/spotifysong.png'
+import marketcampaign from '../assets/marketcampaign.png'
 
 const mywork_data = [
     {
@@ -22,44 +23,22 @@ const mywork_data = [
     // },
     {
         w_no:2,
+        w_name:"Vanguard Marketing Campaign",
+        w_img: marketcampaign,
+        w_desc: "A semester-long campaign for Vanguard, combining market research, audience analysis, and UI mockups to align with their brand identity.",
+        w_stack: "Canva, Figma, Powerpoint, Qualtrics",
+        w_figma: "https://www.figma.com/design/dFvHZEmbzGXzbG787EwLWu/-CE--Marketing-Material?node-id=136-256&t=OLWa9huD3Xw7Y4cY-1",
+        w_powerpoint: "https://drive.google.com/file/d/1smnhnbtowfs7QcpKX0xiUDHVBTYXVUe9/view?usp=sharing"
+    },
+    {
+        w_no:3,
         w_name:"Spotify Song Recommendation",
         w_img: spotifysong,
         w_desc: "A class project to create a music recommendation system with unsupervised ML.",
         w_stack: "Python (Data Analysis/Visualization)",
         w_github: "https://github.com/allyssapanganiban/spotify-song-recommendation",
     },
-    {
-        w_no:3,
-        w_name:"MetroSync (WIP)",
-        w_img: metrosync,
-        w_desc: "A web app that shows live train updates for the NYC MTA transit lines.",
-        w_stack: "Javascript (React.js), Python (Flask)",
-        w_github: ""
-    },
-    // {
-    //     w_no:4,
-    //     w_name:"Web design",
-    //     w_img: placeholder,
-    //     w_desc: "A web app that connects and recommends study partners in your school.",
-    //     w_stack: "Javascript (Next.js)",
-    //     w_github: "https://github.com/jayco12/Grind-Buddy/tree/main",
-    // },
-    // {
-    //     w_no:5,
-    //     w_name:"Web design",
-    //     w_img: placeholder,
-    //     w_desc: "A web app that connects and recommends study partners in your school.",
-    //     w_stack: "Javascript (Next.js)",
-    //     w_github: "https://github.com/jayco12/Grind-Buddy/tree/main",
-    // },
-    // {
-    //     w_no:6,
-    //     w_name:"Web design",
-    //     w_img: placeholder,
-    //     w_desc: "A web app that connects and recommends study partners in your school.",
-    //     w_stack: "Javascript (Next.js)",
-    //     w_github: "https://github.com/jayco12/Grind-Buddy/tree/main",
-    // },
+
 ]
  
 export default mywork_data;
