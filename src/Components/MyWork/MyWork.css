@@ -100,12 +100,6 @@
   cursor: pointer;
 }
 
-.github-icon {
-    width: 25px;
-    height: 25px;
-    margin-top: 5px;
-}
-
 @media(max-width:830px){
     .mywork{
         gap: 50px;
@@ -134,7 +128,7 @@
         line-height: 20px;
     }
     
-    .github-icon, .icon {
+    .github-icon {
         width: 15px;
         height: 15px;
         margin-top: 5px;
@@ -160,7 +154,7 @@
         font-size: 13px;
         line-height: 15px;
     }
-    .github-icon, .icon {
+    .github-icon {
         width: 15px;
         height: 15px;
         margin-top: 5px;
