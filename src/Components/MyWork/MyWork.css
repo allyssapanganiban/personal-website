@@ -100,6 +100,12 @@
   cursor: pointer;
 }
 
+.powerpoint, .figma_icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
 .github-icon {
     width: 25px;
     height: 25px;
@@ -134,11 +140,12 @@
         line-height: 20px;
     }
     
-    .github-icon {
+    .github-icon, .powerpoint, .figma_icon {
         width: 15px;
         height: 15px;
         margin-top: 5px;
     }
+
 }
 
 
@@ -159,7 +166,7 @@
         font-size: 13px;
         line-height: 15px;
     }
-    .github-icon {
+    .github-icon, .powerpoint, .figma_icon {
         width: 15px;
         height: 15px;
         margin-top: 5px;
