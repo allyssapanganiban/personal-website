@@ -140,7 +140,7 @@
         line-height: 20px;
     }
     
-    .github-icon, .powerpoint, .figma_icon {
+    .github-icon {
         width: 15px;
         height: 15px;
         margin-top: 5px;
@@ -169,12 +169,6 @@
     .github-icon {
         width: 15px;
         height: 15px;
-        margin-top: 5px;
-    }
-
-    .powerpoint, .figma_icon {
-        width: 8px;
-        height: 8px;
         margin-top: 5px;
     }
 }
